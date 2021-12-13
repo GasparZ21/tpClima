@@ -1,0 +1,27 @@
+body{
+    background-color:coral
+}
+
+nav ul{
+list-style: none;
+margin-bottom: 80px;
+padding: 0;
+text-align: center;
+background-color: rgb(106, 110, 165);
+}
+
+nav ul li{
+display: inline-flex;
+padding: 10px;
+justify-content: center;
+}
+
+nav ul li a{
+    color: black;
+    display: block;
+    text-decoration: none;
+}
+
+nav ul li a :hover{
+    background-color: red;
+}
